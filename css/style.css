@@ -1,0 +1,194 @@
+/* global class */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+ 
+}
+.btn{
+   padding: 15px;
+   background-color: tomato;
+   box-shadow: 0px 0px 5px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+p{
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+
+}
+section{
+   padding: 75px 0px;
+   text-align: center;
+}
+.heading{
+font-size: 40px;
+line-height: 40px;
+letter-spacing: 2px;
+}
+.sub-heading{
+font-size: 23px;
+text-transform: uppercase;
+margin: 4px 0px;
+}
+.underline{
+border-top: 5px solid rgba(0, 0, 0, 0.378);
+width: 7%;
+margin: 10px auto;
+}
+.writing-part{
+margin-bottom: 60px;
+}
+.box-part{
+
+}
+.box{
+padding: 15px;
+
+}
+.des{
+/* float: left; */
+color: #ec968d;
+}
+
+/* layout class */
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+
+[class*="col-"] {
+   float: left;
+   padding: 15px;
+   
+ }
+
+ .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* header part */
+#header{
+    background-color: blueviolet;
+}
+nav{
+    padding: 10px ;
+    
+}
+.logo-part{
+
+text-align: start;
+}
+.menu-part{
+    /* width: 50%;
+    float: left; */
+  
+}
+ul{
+text-align: end;
+padding: 10px opx;
+
+}
+ul li{
+list-style: none;
+display: inline-block;
+
+}
+ul li a {
+text-decoration: none;
+font-size: 20px;
+color: white;
+/* margin: opx 20px; */
+padding: 10px 15px;
+}
+.header-content{
+font-size: 30px;
+color: white;
+padding: 35px 0px;
+}
+/* service section */
+#service{
+background-color: #17c2a4;
+color: white;
+}
+#service .box img{
+   height: 150px;
+}
+/* team section */
+#team{
+background-color: #e7f1f8;
+color: #3c4761;
+}
+#team h5{
+   color:#52bee6 ;
+   /* padding-bottom: 10px; */
+   text-align: center;
+}
+#team p{
+   padding-top: 15px;
+   text-align: center;
+}
+/* skill section */
+#skill .box h3{
+ color: #42495a;
+}
+
+#portfolio{
+   background-color: #ffdd99;
+}
+#portfolio .btn{
+   background-color:#17c2a4 ;
+}
+#about{
+   background-color:#d74680 ;
+   color: white;
+}
+#about h3{
+   padding-right: 200px;
+}
+#about p{
+   /* padding-right: 15px; */
+   padding: 15px 0px;
+}
+#about .box h5{
+   float: left;
+   padding-left: 6px;
+}
+#contact{
+   background-color: #3c5499;
+      
+}
+#contact .btn{
+   background-color: #17c2a4;
+   margin-top: 20px;
+}
+
+ 
+#btn1{
+   font-size: 15px;
+   color: rgb(255, 255, 255);padding:  15px;
+   background-color: #ebc985;
+   margin-bottom: 15px;
+}
+
+#btn2{
+   font-size: 16px;
+   padding: 10px 15px; 
+   margin-top: 15px;
+}
